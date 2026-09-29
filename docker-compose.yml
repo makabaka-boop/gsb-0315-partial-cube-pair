@@ -1,0 +1,9 @@
+services:
+  cube:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cube-authenticator:local
+    stdin_open: true
+    tty: false
+    restart: "no"
